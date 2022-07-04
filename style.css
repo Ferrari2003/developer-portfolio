@@ -4,16 +4,22 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+}
 .ami{
     color: orange;
 }
-section{
+
+.flexible-contaner{
     display: flex;
     margin-bottom: 100px;
+   
 }
 .moho{
     width: 50%;
-    padding: 10px;
+    padding-left: 2%;
+    
 }
 .moho img{
     width: 80%;
@@ -34,4 +40,26 @@ section{
     background-image: url(/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.ex{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.ex-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    box-shadow: 20px 20px 40px gray;
+    
+}
+.m{
+    border-left: 5px solid tomato;
+}
+.s{
+    border-left: 5px solid blue;
+}
+p{
+    text-align: center;
 }
